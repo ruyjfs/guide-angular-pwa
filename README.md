@@ -37,6 +37,7 @@ Learn more about [Material Angular](https://material.angular.io/)
     <md-toolbar color="primary">
       <span>{{title}}</span>
     </md-toolbar>
+    <app-user-list></app-user-list>
 ## 2.6 Run Server with webkit in angular-cli
     ng server --host 0.0.0.0
 Voila, it's good to look at how you're doing.
@@ -51,6 +52,7 @@ Notes: g = generate and c = compoment.
     <h2>User List</h2>
     <md-list>
       <md-list-item *ngFor="let user of users">
+        <img md-list-avatar src="{{user.img.url}}" alt="{{user.name}}">
         <h3 md-line>
           {{user.name}}
         </h3>
