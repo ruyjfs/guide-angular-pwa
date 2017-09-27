@@ -37,6 +37,7 @@ Learn more about [Material Angular](https://material.angular.io/)
     <md-toolbar color="primary">
       <span>{{title}}</span>
     </md-toolbar>
+    <app-user-list></app-user-list>
 ## 2.6 Run Server with webkit in angular-cli
     ng server --host 0.0.0.0
 Voila, it's good to look at how you're doing.
