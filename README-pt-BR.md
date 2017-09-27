@@ -1,5 +1,5 @@
-# guide-angular-pwa
-Get Started / Tutorial / Guide - Angular + Progressive Web App (PWA)
+# Guia de forma prática em como criar um aplicativo multiplataforma com Angular, Material Design e Progressive Web App.
+Iniciando / Tutorial / Guia - Angular + Material Design com Angular Material 2 + Progressive Web App (PWA)
 
 # 1. Docker
 ## 1.1 Iniciar container do docker para subir o ambiente com o servidor.
