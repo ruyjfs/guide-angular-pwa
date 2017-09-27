@@ -52,6 +52,7 @@ Notes: g = generate and c = compoment.
     <h2>User List</h2>
     <md-list>
       <md-list-item *ngFor="let user of users">
+        <img md-list-avatar src="{{user.img.url}}" alt="{{user.name}}">
         <h3 md-line>
           {{user.name}}
         </h3>
